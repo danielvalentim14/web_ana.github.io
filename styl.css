@@ -1,5 +1,7 @@
 .fundo{
   /*background-size: 1100px 1800px;*/
+width:100%;
+right:100%;
 }
 header {
   background-color: black;
