@@ -1,68 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>♥️Te💖</title>
-  
-  <!-- HTML -->
-  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background-image: url("stars-7088.gif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      background-color: indigo;
+      color: pink;
+      border: 2px solid violet;
+      border-radius: 10px;
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: lightblue;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
-<body class="f" style="background-size: 1100px 1800px;" background="stars-7088.gif">
+<body>
 
-   
-  
- <!-- <div class="img">
-    
-  <img src="fundo/Diet Mountain Dew.jpg">
-  </div>-->
   <nav>
-    <img style="text-align: center" src="earth-night-1918.gif"/>
-    <h1>♥️A noite é bela, mais não igual a você!♥️</h1>
-  <h1 id="texto1"></h1>
-  <h1 id="texto2"></h1>
-  <h1 id="texto3"></h1>
-  <h1 id="texto4"></h1>
-  
-  <button onclick="tocar()">Passo 1</button>
-  <button onclick="tk()">Passo 2</button>
-    <p></p>
-  <button onclick="t()">Passo 3</button>
-  <button onclick="a()">Passo 4</button>
-  <div class="lo">
-  <p></p>
-    <a href="manha.html">Aperte quando estiver de manhã</a>
-    <a href="index.html">Retornar para Página Inicial</a>
-  </div>
- 
-  <!--<img src="fundo/Diet Mountain Dew.jpg">-->
+    <img src="earth-night-1918.gif" alt="Noite Terra">
+    <h1>♥️A noite é bela, mas não igual a você!♥️</h1>
+
+    <h1 id="texto1"></h1>
+    <h1 id="texto2"></h1>
+    <h1 id="texto3"></h1>
+    <h1 id="texto4"></h1>
+
+    <button onclick="tocar()">Passo 1</button>
+    <button onclick="tk()">Passo 2</button>
+    <button onclick="t()">Passo 3</button>
+    <button onclick="a()">Passo 4</button>
+
+    <div class="lo">
+      <a href="manha.html">Aperte quando estiver de manhã</a>
+      <a href="index.html">Retornar para Página Inicial</a>
+    </div>
   </nav>
+
   <script>
-    function tocar(){
-      
-      document.getElementById("texto1").innerHTML = "Boooooaaah";
-    
+    function tocar() {
+      document.getElementById("texto1").innerText = "Boooooaaah";
     }
-    
-    function tk(){
-       document.getElementById("texto2").innerHTML = "Nooooiiiiteeeeeh";
-    
+
+    function tk() {
+      document.getElementById("texto2").innerText = "Nooooiiiiteeeeeh";
     }
+
     function t() {
-    
-      document.getElementById("texto3").innerHTML = "Anaaaaaah Paaaaulaaah!";
+      document.getElementById("texto3").innerText = "Anaaaaaah Paaaaulaaah!";
     }
-      function a() {
-        
-        document.getElementById("texto4").innerHTML = "Meu Anjo♥️";
-      }
-    
+
+    function a() {
+      document.getElementById("texto4").innerText = "Meu Anjo♥️";
+    }
   </script>
+
 </body>
 </html>
