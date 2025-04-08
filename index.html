@@ -1,53 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>♥️Ana♥️</title>
   <link rel="stylesheet" href="styl.css">
-  <link rel="icon" href="Diet Mountain Dew.jpg" style="width: 100vw; height: 100vh; object-fit: cover;">
+  <link rel="icon" href="Diet Mountain Dew.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background-image: url('Diet Mountain Dew.jpg');
+      background-size: cover;        /* Faz a imagem cobrir toda a tela */
+      background-position: center;   /* Centraliza a imagem */
+      background-repeat: no-repeat;  /* Não repete a imagem */
+      background-attachment: fixed;  /* Faz a imagem de fundo ficar fixa */
+      font-family: sans-serif;
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .lo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .lo a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .c {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    audio {
+      width: 90%;
+      max-width: 400px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-     <a href="T.html" style="text-decoration: none;color: white; font-size:2rem;<h1 class="l">Especial Para Você, Ana!</h1>
-<p></p>
-      
-      <div class="lo">  
-        <a href="te_amo_ana.html" style=" align-items: center";>Ana Paula!</a>
-        <a href="manha.html" style=" align-items: center">Saudações</a>
-        <a href="musica.html" style=" align-items: center">Playlist</a>
-        <a href="happy.html" style=" align-items: center">happy birthday</a>
-        <a href="carta.html" style=" align-items: center">HAPPY NEW YEAR!</a>
-        
-        <p></p>
-        
-      </div>
-    
- 
+    <h1>Especial Para Você, Ana!</h1>
+    <div class="lo">  
+      <a href="te_amo_ana.html">Ana Paula!</a>
+      <a href="manha.html">Saudações</a>
+      <a href="musica.html">Playlist</a>
+      <a href="happy.html">Happy Birthday</a>
+      <a href="carta.html">Happy New Year!</a>
+    </div>
   </header>
-<nav>
-  
-   <div class="lo">
-  <!--<img style="border: 12px solid #768bba" src="Diet Mountain Dew.jpg">-->
-     <p> </p>
 
-</div>
-  
-     
-  <!--Inutil por enquanto
-  <h1>Stargirl Interlude</h1>
+  <div class="c">
+    <h1>Born to Die</h1>
+    <audio src="fundo/Lana Del Rey  Born To Die.mp3" controls autoplay></audio>
   </div>
-  <audio src="fundo/Stargirl Interlude.mp3" controls="true" autoplay="true">
- 
-  </nav>
-  
-   <div class="c">
-     <h1>Born to die</h1>
-   <audio src="fundo/Lana Del Rey  Born To Die.mp3" controls="true" autoplay="true">
-     </div>-->
 
-  
-  
 </body>
 </html>
